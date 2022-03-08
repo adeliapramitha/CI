@@ -14,17 +14,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="admin/favicon.ico">
 
-    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
-    <link rel="stylesheet" href="vendors/jqvmap/dist/jqvmap.min.css">
+    <link rel="stylesheet" href="admin/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="admin/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="admin/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="admin/vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="admin/vendors/jqvmap/dist/jqvmap.min.css">
 
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="admin/assets/css/style.css">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -42,8 +42,8 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
-                <a class="navbar-brand hidden" href="#"><img src="images/logo2.png" alt="Logo"></a>
+                <a class="navbar-brand" href="#"><img src="admin/images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="#"><img src="admin/images/logo2.png" alt="Logo"></a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
@@ -56,21 +56,21 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Components</a>
                         <ul class="sub-menu children dropdown-menu">
                             
-                            <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">Cards</a></li>
-                            <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li>
-                            <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li>
+                            <li><i class="fa fa-id-card-o"></i><a href="admin/ui-cards.html">Cards</a></li>
+                            <li><i class="fa fa-fire"></i><a href="admin/ui-modals.html">Modals</a></li>
+                            <li><i class="fa fa-th"></i><a href="admin/ui-grids.html">Grids</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Tables</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-table"></i><a href="tables-data.html">Data Table</a></li>
+                            <li><i class="fa fa-table"></i><a href="admin/tables-data.html">Data Table</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Forms</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
+                            <li><i class="menu-icon fa fa-th"></i><a href="admin/forms-basic.html">Basic Form</a></li>
                         </ul>
                     </li>
 
@@ -78,9 +78,9 @@
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-login.html">Login</a></li>
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
-                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="admin/page-login.html">Login</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="admin/page-register.html">Register</a></li>
+                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="admin/pages-forget.html">Forget Pass</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -142,7 +142,7 @@
                             <div class="dropdown-menu" aria-labelledby="message">
                                 <p class="red">You have 4 Mails</p>
                                 <a class="dropdown-item media bg-flat-color-1" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/1.jpg"></span>
+                                <span class="photo media-left"><img alt="avatar" src="admin/images/avatar/1.jpg"></span>
                                 <span class="message media-body">
                                     <span class="name float-left">Jaehyun Jeong</span>
                                     <span class="time float-right">Just now</span>
@@ -150,7 +150,7 @@
                                 </span>
                             </a>
                                 <a class="dropdown-item media bg-flat-color-4" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/2.jpg"></span>
+                                <span class="photo media-left"><img alt="avatar" src="admin/images/avatar/2.jpg"></span>
                                 <span class="message media-body">
                                     <span class="name float-left">Ariana Grande</span>
                                     <span class="time float-right">5 minutes ago</span>
@@ -158,7 +158,7 @@
                                 </span>
                             </a>
                                 <a class="dropdown-item media bg-flat-color-5" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/3.jpg"></span>
+                                <span class="photo media-left"><img alt="avatar" src="admin/images/avatar/3.jpg"></span>
                                 <span class="message media-body">
                                     <span class="name float-left">Samantha</span>
                                     <span class="time float-right">10 minutes ago</span>
@@ -166,7 +166,7 @@
                                 </span>
                             </a>
                                 <a class="dropdown-item media bg-flat-color-3" href="#">
-                                <span class="photo media-left"><img alt="avatar" src="images/avatar/4.jpg"></span>
+                                <span class="photo media-left"><img alt="avatar" src="admin/images/avatar/4.jpg"></span>
                                 <span class="message media-body">
                                     <span class="name float-left">Rachel</span>
                                     <span class="time float-right">15 minutes ago</span>
@@ -181,7 +181,7 @@
                 <div class="col-sm-5">
                     <div class="user-area dropdown float-right">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="user-avatar rounded-circle" src="images/1.jpg" alt="User Avatar">
+                            <img class="user-avatar rounded-circle" src="admin/images/1.jpg" alt="User Avatar">
                         </a>
 
                         <div class="user-menu dropdown-menu">
@@ -448,18 +448,18 @@
 
     <!-- Right Panel -->
 
-    <script src="vendors/jquery/dist/jquery.min.js"></script>
-    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
-    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="admin/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="admin/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="admin/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="admin/assets/js/main.js"></script>
 
 
-    <script src="vendors/chart.js/dist/Chart.bundle.min.js"></script>
-    <script src="assets/js/dashboard.js"></script>
-    <script src="assets/js/widgets.js"></script>
-    <script src="vendors/jqvmap/dist/jquery.vmap.min.js"></script>
-    <script src="vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
-    <script src="vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="admin/vendors/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="admin/assets/js/dashboard.js"></script>
+    <script src="admin/assets/js/widgets.js"></script>
+    <script src="admin/vendors/jqvmap/dist/jquery.vmap.min.js"></script>
+    <script src="admin/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <script src="admin/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
     <script>
         (function($) {
             "use strict";
